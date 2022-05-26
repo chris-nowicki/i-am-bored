@@ -13,7 +13,7 @@ This is a quick little project where I connected to an API and used Bootsrap for
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+  - [Useful Resources](#author)
 - [Author](#author)
 
 ## Overview
@@ -40,12 +40,17 @@ Some key code that helped me was the `scripts.js` script:
 
 I'm sure I can do some _refactoring_ once I learn more in the coming months at my [Coding Dojo](http://www.codingdojo.com) bootcamp.
 
-and the `button`
+the `onclick` pointing to the `randomActivity()` function in the button:
 
 ```html
 <button class="btn btn-outline-dark ms-3 btn-sm test" type="button" onclick="randomActivity()">GO!</button>
 ```
 
+and the ID of the `<select>`:
+
+```html
+<select class="form-select shadow-sm" aria-label="Activities Types to Choose From" name="bored-activity-type" id="activity">
+```
 ### Continued development
 
 - [ ] create an interface to incorporate other objects of The Bored API

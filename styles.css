@@ -1,0 +1,15 @@
+/* adjusts the height for the activity output of The Bored API */
+.activity-display {
+    height: 250px;
+}
+
+/* removes the button glowing affect when focused, active and/or both */
+.btn:focus, .btn:active, .btn:active:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* forces the form-select (drop-down menu) to have a black border color regardless of focus */
+.form-select, .form-select:focus {
+    border-color: black;
+}

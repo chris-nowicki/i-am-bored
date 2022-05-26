@@ -58,6 +58,7 @@ and the ID of the `<select>`:
       - Type
       - Participant
       - Price
+- [ ] Use [Dracula Theme](https://draculatheme.com/) colors for the main page
 - [ ] Refactor Bootsrap and JS code where applicable
 - [ ] Make the site more responsive by adjusting the Bootstrap columns for sm, md, and large
 - [ ] Create an IOS APP / WIDGET for fun 🥳

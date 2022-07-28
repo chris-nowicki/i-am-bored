@@ -14,4 +14,7 @@ function randomActivity() {
                 activityDisplay.innerHTML = data.activity
             }
         })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
 }

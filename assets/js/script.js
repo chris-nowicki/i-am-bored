@@ -1,7 +1,7 @@
 // function to get information from The Bored API
 
 function getActivity() {
-    fetch("http://www.boredapi.com/api/activity?type=" + document.getElementById("activity").value)
+    fetch("https://www.boredapi.com/api/activity?type=" + document.getElementById("activity").value)
     .then((response) => response.json())
     .then((data) => {
         // creates an activityDisplay variable to assign to the <span> tag that the 
@@ -15,5 +15,5 @@ function getActivity() {
             activityDisplay.innerHTML = data.activity
         }
     })
-    .catch(err => console.error(err));
+    .catch(err => console.log(err));
 }
